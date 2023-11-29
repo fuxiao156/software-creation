@@ -1,0 +1,25 @@
+<view>
+		<div class='back_color'></div>
+		<navigator class="box purple" url="../../packagea/pages/choose_page/choose_page?index=0">
+			<image src="../../images/tree.png" class="to_back tree" mode="aspectFit"></image>
+			<view class="to_font">
+				<view class="big_font">树洞先生</view>
+				<view class="small_font">你的秘密基地</view>
+			</view>
+		</navigator>
+		<navigator class="box blue" url="../../packagea/pages/choose_page/choose_page?index=1">
+			<image src="../../images/hailuo.png" class="to_back hailuo" mode="aspectFit"></image>
+			<view class="to_font">
+				<view class="big_font">海螺漂流瓶</view>
+				<view class="small_font">听听他们的声音</view>
+			</view>
+		</navigator>
+    <navigator class="box deep_blue" url="../../packagea/pages/choose_page/choose_page?index=2">
+			<image src="../../images/sound.png" class="to_back sound" mode="aspectFit"></image>
+			<view class="to_font">
+				<view class="big_font">发声</view>
+				<view class="small_font">call for help</view>
+			</view>
+		</navigator>
+	
+</view>

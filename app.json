@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/banner/banner",
+    "pages/new/new",
+    "pages/test/test",
+    "pages/passages/passages"
+  ],
+  "subpackages": [
+    {
+      "root": "packagea",
+      "pages": [
+        "pages/rankTest/rankTest",
+        "pages/text/text",
+        "pages/choose_page/choose_page",
+        "pages/voise/voise"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#679cce",
+    "navigationBarTitleText": "隅",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

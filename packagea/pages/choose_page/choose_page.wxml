@@ -1,0 +1,13 @@
+<view class="root">
+	<div class='back_color'></div>
+	<view class="content">
+		<navigator class="box purple" url="../text/text?index={{index}}">
+				<view class="big_font">{{title[index]}}</view>
+				<view class="small_font">进入阅读>></view>
+		</navigator>
+		<navigator class="box blue" url="../text/text?index={{index+1}}">
+				<view class="big_font">{{title[index+1]}}</view>
+				<view class="small_font">进入阅读>></view>
+		</navigator>
+	</view>
+</view>

@@ -1,0 +1,158 @@
+/* pages/new/new.wxss */
+page{
+  height: 100%;
+}
+
+.title_icon{
+  margin-top: 0;
+  width: 100%;
+  background: linear-gradient(#679cce,#4e5c8b);
+  /* margin-top: 3%; */
+  /* padding-left: 0; */
+  /* width: 50%; */
+  height: 100%;
+}
+
+.big_pho{
+  height: 30%;
+  background-color: rgba(243, 243, 253);
+}
+
+.content{
+  /* border-top: solid 3px rgba(36, 145, 117, 0.664); */
+  /* background-color: rgb(76, 128, 219); */
+  background: linear-gradient(#4e5c8b,#4e5c8bbb);
+  /* background-color: #7dc9ea; */
+  height: 70%;
+  padding: 7%;
+  padding-top: 2%;
+}
+
+.blue{
+  background-color: rgb(28, 109, 252);
+}
+
+.test{
+  height: 30%;
+  background-color: white;
+  margin-top: 6%;
+  border-radius: 5px;
+}
+
+.nothing{
+  height: 15%;
+}
+
+.icon{
+  width: 100%;
+  /* margin-left: 1px; */
+  margin-top: 3%;
+  /* background-color: saddlebrown; */
+  height: 30%;
+}
+
+.title{
+  margin-top: 1%;
+  text-align: center;
+  /* font-size: large; */
+  font-weight: bold;
+}
+
+.divide_two{
+  margin-top: 6%;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li_box{
+  border-radius: 5px;
+  height: 100%;
+  /* margin-left: 5%; */
+  width: 48%;
+  background-color: white;
+}
+
+.detail{
+	font-weight: lighter;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height: 64%;
+	border-radius: 5px;
+	border: 1px solid rgb(141, 156, 156);
+	top: 50px;
+	left: 15%;
+	z-index: 100;
+	width: 70%;
+	background-color: rgb(255, 255, 255);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* padding: 15px; */
+	box-shadow: 4px 4px 3px rgba(128, 128, 128, 0.527);
+  }
+
+  .title2{
+	text-align: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+	font-size:15px;
+  }
+  
+  .paragragh{
+    text-align: center;
+  width: 96%;
+  margin-left: 2%;
+  height: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+
+  .to_font{
+	width: 92%;
+  margin-left: 4%;
+  height: 80%;
+  overflow: hidden;
+  }
+
+  .hide{
+	display: none;
+  }
+
+  .assure{
+    margin: 0 auto;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    color: rgb(255, 255, 255);
+    /* width: 65px; */
+    margin-top: 20px;
+    background-color: rgb(73, 196, 226);
+  }
+
+  .buttonArray{
+    left: 5%;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .deny{
+    margin: 0 auto;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(218, 221, 221);
+  }
+
+  .mask{
+	z-index: 90;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(128, 128, 128, 0.514);
+  }

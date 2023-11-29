@@ -1,0 +1,11 @@
+<!--pages/banner.wxml-->
+<!--pages/start/start.wxml-->
+<view class="root1">
+<!-- 背景图片 -->
+  <image class='background2' src='../../images/banner.jpg' mode="widthFix"></image>
+  <image class='background' src='../../images/banner.jpg' mode="widthFix"></image>
+ <!-- 页面内容 -->
+  <view class="content">
+    <view class="timer">{{time}}</view>
+  </view>
+</view>

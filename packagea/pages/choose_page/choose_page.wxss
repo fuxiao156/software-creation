@@ -1,0 +1,74 @@
+/* packagea/pages/choose_page/choose_page.wxss */
+.box{
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 4px 4px 1px rgba(128, 128, 128, 0.486);
+	margin: 30px auto;
+	/* text-align: center; */
+	width: 80%;
+	padding: 6%;
+	height: 100px;
+	overflow: hidden;
+}
+
+.back_color{
+	background: linear-gradient(#679cce,#4e5c8b);
+  width: 750rpx; 
+  height: 110%;
+   position: absolute;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+}
+
+.big_font{
+	color: rgb(255, 255, 255);
+	font-size: x-large;
+  font-weight: bold;
+  height: 70%;
+}
+
+.small_font{
+	margin-top: 10px;
+	margin-left: 45%;
+	border-radius: 10px;
+	text-align: center;
+	width: 130px;
+	font-weight: bold;
+	background-color: white;
+}
+
+.purple{
+	background-color: #b795ec;
+	color: rgb(183, 149, 236);
+}
+
+.blue{
+	background-color: #64d3f5;
+	color: #64bbf5;
+}
+
+.deep_blue{
+	color: rgb(81, 127, 228);
+	background-color: rgb(81, 127, 228);
+}
+
+  .tree{
+    opacity: 0.8;
+    top: 15px;
+    height: 75%;
+  }
+
+  .hailuo{
+    top: 8px;
+    height:90%;
+  }
+
+  .sound{
+    top: 14px;
+    height: 76%;
+  }
+
+  .low_opcity{
+	  opacity: 0.45;
+  }

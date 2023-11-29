@@ -1,0 +1,119 @@
+<!--packagea/pages/test/test.wxml-->
+<view class="{{mask}}">
+    <view class="detail">
+      <view class="to_font">
+        <view class="title2">结果分析</view>
+        <view class="paragragh">{{result_arr[status]}}</view>
+        <view class="paragragh">建议：{{advice_arr[status]}}</view>
+        <view class="button2" bindtap="hide_detail">已知晓</view>
+      </view>
+    </view>
+</view>
+
+<view class="page">
+<view class="title">PHQ-9问卷</view>
+<view class="question_table">
+	<view class="question">1.做事时提不起劲或没有兴趣</view>
+	<radio-group bindchange="change_val" data-index="0">
+		<view class="choose_box">
+			<radio value="0" data-index="0">没有</radio>
+			<radio value="1" data-index="0">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="0">一半以上时间</radio>
+			<radio value="3" data-index="0">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">2.感到心情低落、沮丧或绝望</view>
+	<radio-group bindchange="change_val" data-index="1">
+		<view class="choose_box">
+			<radio value="0" data-index="1">没有</radio>
+			<radio value="1" data-index="1">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="1">一半以上时间</radio>
+			<radio value="3" data-index="1">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">3.入睡困难、睡不安稳或睡得过多</view>
+	<radio-group bindchange="change_val" data-index="2">
+		<view class="choose_box">
+			<radio value="0" data-index="2">没有</radio>
+			<radio value="1" data-index="2">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="2">一半以上时间</radio>
+			<radio value="3" data-index="2">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">4.感到疲惫或没有活力</view>
+	<radio-group bindchange="change_val" data-index="3">
+		<view class="choose_box">
+			<radio value="0" data-index="3">没有</radio>
+			<radio value="1" data-index="3">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="3">一半以上时间</radio>
+			<radio value="3" data-index="3">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">5.食欲不振或没有活力</view>
+	<radio-group bindchange="change_val" data-index="4">
+		<view class="choose_box">
+			<radio value="0" data-index="4">没有</radio>
+			<radio value="1" data-index="4">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="4">一半以上时间</radio>
+			<radio value="3" data-index="4">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">6.觉得自己很糟或很失败、让自己、家人失望</view>
+	<radio-group bindchange="change_val" data-index="5">
+		<view class="choose_box">
+			<radio value="0" data-index="5">没有</radio>
+			<radio value="1" data-index="5">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="5">一半以上时间</radio>
+			<radio value="3" data-index="5">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">7.对事物专注有困难，例如看报纸或看电视时</view>
+	<radio-group bindchange="change_val" data-index="6">
+		<view class="choose_box">
+			<radio value="0" data-index="6">没有</radio>
+			<radio value="1" data-index="6">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="6">一半以上时间</radio>
+			<radio value="3" data-index="6">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">8.行动或说话速度缓慢到别人已经察觉，或刚好相反——变得比平时更烦躁或坐立不安，动来动去</view>
+	<radio-group bindchange="change_val" data-index="7">
+		<view class="choose_box">
+			<radio value="0" data-index="7">没有</radio>
+			<radio value="1" data-index="7">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="7">一半以上时间</radio>
+			<radio value="3" data-index="7">几乎每天</radio>
+		</view>
+	</radio-group>
+	<view class="question">9.有不如死掉或用某种方式伤害自己的念头</view>
+	<radio-group bindchange="change_val" data-index="8">
+		<view class="choose_box">
+			<radio value="0" data-index="8">没有</radio>
+			<radio value="1" data-index="8">有几天</radio>
+		</view>
+		<view class="choose_box">
+			<radio value="2" data-index="8">一半以上时间</radio>
+			<radio value="3" data-index="8">几乎每天</radio>
+		</view>
+	</radio-group>
+</view>
+<view class="button" bindtap="summit">提交</view>
+<view class="empty"></view>
+</view>
+

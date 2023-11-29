@@ -1,0 +1,39 @@
+/* packagea/pages/text/text.wxss */
+.page{
+  position: relative;
+}
+
+.back_color{
+	background: linear-gradient(#679cce,#4e5c8b);
+  width: 750rpx; 
+  height: 100%;
+   position: absolute;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+}
+
+.text{
+  color: rgb(245, 234, 231);
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+}
+
+.line{
+  height: 5px;
+}
+
+.title{
+  font-size: x-large;
+  /* text-align: center; */
+}
+
+.para{
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+.bold{
+  font-weight: bold;
+}

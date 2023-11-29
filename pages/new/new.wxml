@@ -1,0 +1,44 @@
+<!--pages/new/new.wxml-->
+<view class="{{mask}}">
+    <view class="detail">
+      <view class="to_font">
+        <view class="title2">用户隐私保护提示</view>
+        <scroll-view scroll-y="true" class="paragragh">{{text}}</scroll-view>
+      </view>
+      <view class="buttonArray">
+        <view class="assure" bindtap="hide_detail">同意并继续</view>
+        <view class="deny" bindtap="exit">拒绝并退出</view>
+      </view>
+    </view>
+</view>
+
+<view class="big_pho">
+  <image class="title_icon" src="../../images/headBan.jpg" mode="aspectFit"></image>
+</view>
+<view class="content">
+  <navigator class="test" url="../../packagea/pages/rankTest/rankTest">
+    <view class="nothing"></view>
+    <image mode="aspectFit" class="icon" src="../../images/write.png"></image>
+    <view class="title">抑郁症量表检测</view>
+  </navigator>
+  <navigator class="test" url="../../packagea/pages/voise/voise">
+    <view class="nothing"></view>
+    <image mode="aspectFit" class="icon" src="../../images/hear2.png"></image>
+    <view class="title">抑郁症语音检测</view>
+  </navigator>
+  <view class="divide_two"> 
+  <!-- <navigator class="li_box" url="../test/test"> -->
+    <view class="li_box" bindtap="notready">
+      <view class="nothing"></view>
+      <image mode="aspectFit" class="icon" src="../../images/doctor.png"></image>
+      <view class="title">咨询医生</view>
+    </view>
+  <!-- </navigator> -->
+    <navigator class="li_box" url="../passages/passages">
+      <view class="nothing"></view>
+      <image mode="aspectFit" class="icon" src="../../images/tree.png"></image>
+      <view class="title">其他功能</view>
+    </navigator>
+  </view>
+  <!-- <view class="nothing blue"></view> -->
+</view>

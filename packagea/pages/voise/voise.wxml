@@ -1,0 +1,22 @@
+<view class="root">
+  <image class='background-image' mode="aspectFill"></image>
+  <view class="content">
+    <view style="margin: 100rpx"></view>
+    <view class="textuse">
+       <!-- 倾诉一下吧 -->
+    </view>
+    <image class="icon" src="../../../images/record.png" mode="aspectFit"></image>
+    <view class="to_flex">
+      <button size="mini" class="say_button" bindtap="start">开始录音</button>
+      <!-- <button size="mini" class="say_button" bindtap="suspend">录音暂停</button>
+      <button size="mini" class="say_button" bindtap="continu">继续录音</button> -->
+      <button size="mini" class="say_button" bindtap="stop">录音停止</button>
+      <button size="mini" class="say_button" bindtap="play">播放录音</button>
+      <!-- <button size="mini" class="say_button" bindtap="about">测试按钮</button> -->
+    </view>
+    <view class="to_flex">
+    <button size="mini" class="submit" bindtap="submit"
+      >提交</button>
+    </view>
+  </view>
+</view>

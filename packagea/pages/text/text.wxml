@@ -1,0 +1,13 @@
+<!--packagea/pages/text/text.wxml-->
+<view class="page">
+  <div class='back_color'></div>
+  <view class="text">
+    <view class="title">{{title[index]}}</view>
+    <image class="line" src="../../../images/line.png"></image>
+    <view wx:for="{{text[index]}}" class="{{item.class}}">{{item.content}}</view>
+    <image class="line" src="../../../images/line.png"></image>
+    <view style="height: 40px;" ></view>
+  </view>
+</view>
+
+

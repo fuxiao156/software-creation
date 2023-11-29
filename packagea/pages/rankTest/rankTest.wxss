@@ -1,0 +1,145 @@
+.title{
+	text-align: center;
+	font-size:xx-large;
+	font-weight: bolder;
+}
+
+.page{
+	background: linear-gradient(#679cce,#4e5c8b);
+	/* color: rgb(48, 47, 47); */
+	color: rgba(255, 255, 255, 0.897);
+}
+
+.question_table{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.question{
+	margin: 0 auto;
+	/* width: 60%; */
+	/* font-size: large; */
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+.choose_box{
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+radio{
+  font-weight: lighter;
+  /* font-size: small; */
+	width: 40%;
+	margin-bottom: 5px;
+}
+
+radio .wx-radio-input{
+	width: 15px;
+	height: 15px;
+	/* border-radius: 50%; */
+	}
+	
+	
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked {
+background: #0394F0 !important;
+border-color:#0394F0 !important;
+}
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before {
+/* width: 18rpx;
+height: 18rpx; */
+/* line-height: 15rpx; */
+/* text-align: center; */
+font-size: 22rpx;
+/* color: transparent; */
+/* background: transparent; */
+transform: translate(-50%, -50%) scale(1);
+-webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+.button{
+border-radius: 3px;
+  width: 80%;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: rgb(114, 162, 235);
+  border: 1px solid rgba(146, 215, 241, 0.411);
+  padding: 5px;
+  margin: 5px auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.empty{
+	height: 30px;
+}
+
+.detail{
+	font-weight: lighter;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height: 50%;
+	border-radius: 5px;
+	border: 1px solid rgb(141, 156, 156);
+	top: 50px;
+	left: 15%;
+	z-index: 100;
+	width: 70%;
+	background-color: rgb(255, 255, 255);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* padding: 15px; */
+	box-shadow: 4px 4px 3px rgba(128, 128, 128, 0.527);
+  }
+
+  .title2{
+	text-align: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+	font-size:15px;
+  }
+  
+  .paragragh{
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/* font-family: 仿宋; */
+  }
+
+  .to_font{
+	width: 92%;
+	position: absolute;
+	left: 4%;
+  }
+
+  .hide{
+	display: none;
+  }
+
+  .button2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 7px;
+	border-radius: 5px;
+	/* border: 1px solid gray; */
+	color: rgb(255, 255, 255);
+	width: 65px;
+	margin-top: 20px;
+	background-color: rgb(73, 196, 226);
+  }
+
+  .mask{
+	z-index: 90;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(128, 128, 128, 0.514);
+  }
