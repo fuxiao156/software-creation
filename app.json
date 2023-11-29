@@ -3,7 +3,9 @@
     "pages/banner/banner",
     "pages/new/new",
     "pages/test/test",
-    "pages/passages/passages"
+    "pages/passages/passages",
+    "pages/community/community",
+    "pages/myself/myself"
   ],
   "subpackages": [
     {
@@ -19,8 +21,34 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#679cce",
-    "navigationBarTitleText": "隅",
+    "navigationBarTitleText": "写声",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#ffffff",
+    "color": "#070707",
+    "selectedColor": "#56a9cf",
+    "list": [
+        {
+            "selectedIconPath": "images/say.png",
+            "iconPath": "images/say.png",
+            "pagePath": "pages/new/new",
+            "text": "翻译"
+        },
+        {
+            "selectedIconPath": "images/say.png",
+            "iconPath": "images/say.png",
+            "pagePath": "pages/community/community",
+            "text": "社区"
+        },
+        {
+            "selectedIconPath": "images/say.png",
+            "iconPath": "images/say.png",
+            "pagePath": "pages/myself/myself",
+            "text": "我的"
+        }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
