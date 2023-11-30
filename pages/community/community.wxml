@@ -1,2 +1,117 @@
-<!--pages/community/community.wxml-->
-<text>pages/community/community.wxml</text>
+<view class="content">
+  <view class="hot-event">
+    <view class="hot-event-title">
+      <view class = "hot-event-icon">
+        <view>热议</view>
+        <view>话题</view>
+      </view>
+      <view class = "hot-event-txt"># 国际聋人节</view>
+    </view>
+    <view class="simpe-event-title">
+      <image class="topics" src="../../images/icons/topics.png" mode="aspectFit"></image>
+      # 聋哑人
+    </view>
+    <view class="simpe-event-title">
+      <image class="topics" src="../../images/icons/topics.png" mode="aspectFit"></image>
+      # 夕阳
+    </view>
+    <view class="simpe-event-title">
+      <image class="topics" src="../../images/icons/topics.png" mode="aspectFit"></image>
+      # 听障在学校好难懂
+    </view>
+    <view class="simpe-event-title">
+      <image class="topics" src="../../images/icons/topics.png" mode="widthFix"></image>
+      # 手语
+    </view>
+    <image class="event-deco" src="../../images/icons/talk.png" mode="aspectFit"></image>
+  </view>
+  <view class="functions">
+      <!-- <view style="margin-top: 14px;">
+          <view class = "hot-event-icon">
+            <view>功能</view>
+            <view>中心</view>
+          </view>
+      </view> -->
+      <view class="function">
+        <image class="function-icon" src="../../images/icons/like.png" mode="aspectFit"></image>
+        <view class="function-name">点赞</view>
+      </view>
+      <view class="function">
+        <image class="function-icon" src="../../images/icons/comment.png" mode="aspectFit"></image>
+        <view class="function-name">评论</view>
+      </view>
+      <view class="function">
+        <image class="function-icon" src="../../images/icons/near.png" mode="aspectFit"></image>
+        <view class="function-name">附近</view>
+      </view>
+      <view class="function">
+        <image class="function-icon" src="../../images/icons/news.png" mode="aspectFit"></image>
+        <view class="function-name">新闻</view>
+      </view>
+  </view>
+  <view class="posts">
+    <!-- <view style="margin-top: 14px;">
+        <view class = "hot-event-icon">
+          <view>功能</view>
+          <view>中心</view>
+        </view>
+    </view> -->
+    <view class="post-titles">
+      <span class="s-post-title">讨论</span>
+      <span class="post-title">关注</span>
+    </view>
+    <view class="post-list">
+      <view class="post">
+        <view class="post-head">
+          <view class="post-icon"></view>
+          <view class="post-info">
+            <view class="poster">白日糖</view>
+            <view class="post-time">1小时前</view>
+          </view>
+          <view class="subscribe">关注</view>
+        </view>
+        <view class="post-content">关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解馋馋馋馋馋馋馋关注嘉然顿顿解馋</view>
+        <view class="post-end">
+            <image class="post-like-icon" src="../../images/icons/like.png"></image>
+            <view class="post-index-num">12</view>
+            <image class="post-comment-icon" src="../../images/icons/comment.png"></image>
+            <view class="post-index-num">12</view>
+        </view>
+      </view>
+      <view class="post">
+        <view class="post-head">
+          <view class="post-icon"></view>
+          <view class="post-info">
+            <view class="poster">白日糖</view>
+            <view class="post-time">1小时前</view>
+          </view>
+          <view class="subscribe">关注</view>
+        </view>
+        <view class="post-content">关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解馋馋馋馋馋馋馋关注嘉然顿顿解馋</view>
+        <view class="post-end">
+            <image class="post-like-icon" src="../../images/icons/like.png"></image>
+            <view class="post-index-num">12</view>
+            <image class="post-comment-icon" src="../../images/icons/comment.png"></image>
+            <view class="post-index-num">12</view>
+        </view>
+      </view>
+      <view class="post">
+        <view class="post-head">
+          <view class="post-icon"></view>
+          <view class="post-info">
+            <view class="poster">白日糖</view>
+            <view class="post-time">1小时前</view>
+          </view>
+          <view class="subscribe">关注</view>
+        </view>
+        <view class="post-content">关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解关注嘉然顿顿解馋馋馋馋馋馋馋关注嘉然顿顿解馋</view>
+        <view class="post-end">
+            <image class="post-like-icon" src="../../images/icons/like.png"></image>
+            <view class="post-index-num">12</view>
+            <image class="post-comment-icon" src="../../images/icons/comment.png"></image>
+            <view class="post-index-num">12</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
