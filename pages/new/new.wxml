@@ -1,5 +1,5 @@
 <!--pages/new/new.wxml-->
-<view class="{{mask}}">
+<!-- <view class="{{mask}}">
     <view class="detail">
       <view class="to_font">
         <view class="title2">用户隐私保护提示</view>
@@ -10,7 +10,7 @@
         <view class="deny" bindtap="exit">拒绝并退出</view>
       </view>
     </view>
-</view>
+</view> -->
 
 <view class="big_pho">
   <image class="title_icon" src="../../images/headBan.jpg" mode="aspectFit"></image>
