@@ -1,1 +1,82 @@
 /* pages/myself/myself.wxss */
+page{
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.selfInformation{
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  background-color: white;
+  height: 70px;
+}
+
+.avatar{
+  height: 60px;
+  width: 60px;
+}
+
+.textInformation{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.name{
+  font-weight: bolder;
+}
+
+.sex{
+  font-size: 13px;
+  position: relative;
+  top:10%;
+}
+
+.location{
+  position: relative;
+  left: 20%;
+  top:10%;
+  font-size: 13px;
+}
+
+.selfHomePage{
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 76px;
+  height: 30px;
+  background-color: rgb(69, 129, 240);
+  color: white;
+  border-radius: 20px;
+}
+
+.choices{
+  width: 100%;
+  font-family:cursive;
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.choice{
+  padding-top: 8px;
+  width: 100%;
+  height: 28px;
+  font-size: 15px;
+  background-color: white;
+  padding-left: 10px;
+  box-shadow:0 1px 5px rgba(0,0,0,0.1);
+}
+
+/* .divLine{
+  background-color: rgb(200, 200, 200);
+  width: 100%;
+  height: 4rpx;
+} */

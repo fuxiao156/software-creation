@@ -1,2 +1,59 @@
 <!--pages/myself/myself.wxml-->
-<text>pages/myself/myself.wxml</text>
+<view class='container'>
+  <view class="selfInformation">
+    <image class="avatar" src="../../images/avatar.jpg" mode="aspectFit"></image>
+    <view class='textInformation'>
+      <text class='name'>明天会更好\n</text>
+      <text class='sex'>男</text>
+      <text class='location'>湖南 长沙</text>
+    </view>
+    <view class='selfHomePage'>个人主页</view>
+  </view>
+  <view class='choices'>
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/phone.png"></image>
+      <text style="position: relative; left: 2%;">紧急求助</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+    </view>
+    <view class='divLine'></view>
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/records.png"></image>
+      <text style="position: relative; left: 2%;">聊天记录</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+    </view> 
+    <view class='divLine'></view>
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/star.png"></image>
+      <text style="position: relative; left: 2%;">收藏</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image>
+    </view>
+
+    <text>\n</text>
+
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/feedback.png"></image>
+      <text style="position: relative; left: 2%;">意见反馈</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+    </view>
+    <view class='divLine'></view>
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/service.png"></image>
+      <text style="position: relative; left: 2%;">客服咨询</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+    </view>
+    <view class='divLine'></view>
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/about.png"></image>
+      <text style="position: relative; left: 2%;">关于写声</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+    </view>
+
+    <text>\n</text>
+    
+    <view class='choice'>
+      <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/setUp.png"></image>
+      <text style="position: relative; left: 2%;">设置</text>
+      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image>
+    </view> 
+  </view>
+</view>
