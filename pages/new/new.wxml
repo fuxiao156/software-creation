@@ -13,31 +13,31 @@
 </view> -->
 
 <view class="big_pho">
-  <image class="title_icon" src="../../images/headBan.jpg" mode="aspectFit"></image>
+  <image class="title_icon" src="../../images/headBan.png" mode="aspectFit"></image>
 </view>
 <view class="content">
   <navigator class="test" url="../../packagea/pages/rankTest/rankTest">
     <view class="nothing"></view>
-    <image mode="aspectFit" class="icon" src="../../images/write.png"></image>
-    <view class="title">抑郁症量表检测</view>
+    <image mode="aspectFit" class="icon" src="../../images/icons/talk.png"></image>
+    <view class="title">线下对话辅助</view>
   </navigator>
   <navigator class="test" url="../../packagea/pages/voise/voise">
     <view class="nothing"></view>
-    <image mode="aspectFit" class="icon" src="../../images/hear2.png"></image>
-    <view class="title">抑郁症语音检测</view>
+    <image mode="aspectFit" class="icon" src="../../images/icons/hear2.png"></image>
+    <view class="title">线上音视频识别</view>
   </navigator>
   <view class="divide_two"> 
   <!-- <navigator class="li_box" url="../test/test"> -->
     <view class="li_box" bindtap="notready">
       <view class="nothing"></view>
-      <image mode="aspectFit" class="icon" src="../../images/doctor.png"></image>
-      <view class="title">咨询医生</view>
+      <image mode="aspectFit" class="icon" src="../../images/icons/hand.png"></image>
+      <view class="title">手语识别</view>
     </view>
   <!-- </navigator> -->
     <navigator class="li_box" url="../passages/passages">
       <view class="nothing"></view>
-      <image mode="aspectFit" class="icon" src="../../images/tree.png"></image>
-      <view class="title">其他功能</view>
+      <image mode="aspectFit" class="icon" src="../../images/icons/sound.png"></image>
+      <view class="title">快速表达</view>
     </navigator>
   </view>
   <!-- <view class="nothing blue"></view> -->

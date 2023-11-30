@@ -31,20 +31,20 @@
     "selectedColor": "#56a9cf",
     "list": [
         {
-            "selectedIconPath": "images/say.png",
-            "iconPath": "images/say.png",
+            "selectedIconPath": "images/icons/translateOn.png",
+            "iconPath": "images/icons/translateOff.png",
             "pagePath": "pages/new/new",
             "text": "翻译"
         },
         {
-            "selectedIconPath": "images/say.png",
-            "iconPath": "images/say.png",
+            "selectedIconPath": "images/icons/conmunityOn.png",
+            "iconPath": "images/icons/conmunityOff.png",
             "pagePath": "pages/community/community",
             "text": "社区"
         },
         {
-            "selectedIconPath": "images/say.png",
-            "iconPath": "images/say.png",
+            "selectedIconPath": "images/icons/myselfOn.png",
+            "iconPath": "images/icons/myselfOff.png",
             "pagePath": "pages/myself/myself",
             "text": "我的"
         }
