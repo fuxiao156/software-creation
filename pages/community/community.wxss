@@ -1,1 +1,215 @@
 /* pages/community/community.wxss */
+page{
+  height: 100%;
+}
+
+.content{
+  /* background-color: rgb(226, 238, 245); */
+  padding-top: 10px;
+}
+
+.hot-event{
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 14px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.hot-event-title{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 14px;
+}
+
+.hot-event-icon{
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-left: 10px;
+  color: #1296db;
+  font-weight: bold;
+  border: 2px solid #1296db;
+  border-radius: 4px;
+}
+
+.hot-event-txt{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 90%;
+  font-family: 等线;
+  border-bottom: 4px solid #1296db;
+}
+
+.simpe-event-title{
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  color: rgb(100, 100, 100);
+  font-size: 90%;
+  font-weight: bold;
+  font-family: 等线;
+}
+
+.topics{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.event-deco{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 30%;
+  width: 20%;
+}
+
+.functions{
+  margin-top: 16px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.055);
+  border-radius: ;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+
+.function{
+  margin: 5%;
+  color: rgb(100, 100, 100);
+  font-size: 90%;
+  font-weight: bold;
+  font-family: 等线;
+}
+
+.function-icon{
+  width: 26px;
+  height: 26px;
+  /* background-color: rgb(145, 230, 233); */
+  border-radius: 4px;
+  padding: 2px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.164);
+}
+
+.posts{
+  margin-top: 4px;
+}
+
+.post-titles{
+  margin-bottom: 16px;
+}
+
+.s-post-title{
+  /* color: rgb(100, 100, 100); */
+  padding: 4px;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: 等线;
+  border-bottom: 2px solid black;
+  margin-left: 16px;
+}
+
+.post-title{
+  color: rgb(100, 100, 100);
+  padding: 4px;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: 等线;
+  margin-left: 16px;
+}
+
+.post{
+  width: 90%; 
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.199);
+}
+
+.post-head{
+  padding-top: 12px;
+  padding-left: 12px;
+  display: flex;
+  margin-top: 5px;
+  position: relative;
+  align-items: center;
+}
+
+.post-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 8px;
+  background-color: burlywood;
+}
+
+.poster{
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  font-family: 等线;
+}
+
+.post-time{
+  color: rgba(112, 112, 112, 0.938);
+  margin-top: 4px;
+  font-size: 80%;
+  font-weight: bold;
+  font-family: 等线;
+}
+
+.subscribe{
+  position: absolute;
+  right: 20px;
+  width: 80px;
+  border: 2px solid rgb(53, 188, 250);
+  color: rgb(53, 188, 250);
+  font-weight: bold;
+  font-size: 80%;
+  line-height: 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.post-content{
+  padding: 10px;
+  line-height: 20px;
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  font-family: 等线;
+}
+
+.post-end{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.post-like-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.post-comment-icon{
+  width: 18px;
+  height: 18px;
+}
+
+.popular-index{
+  display: flex;
+}
+
+.post-index-num{
+  margin-right: 20px;
+  margin-left: 4px;
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  font-family: 等线;
+}
