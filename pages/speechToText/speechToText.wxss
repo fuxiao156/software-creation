@@ -5,15 +5,94 @@ page{
 
 .title{
   display: flex;
+  align-items: center;
   padding-top:10px ;
   padding-left:10px ;
+  color: rgb(100, 100, 100);
+  font-size: 70%;
+  font-weight: bold;
+  font-family: 等线;
 }
 
 .content{
-  display: flex;
+  position: relative;
+}
+
+.sentence{
+  width: 88%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 10px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.185);
+}
+
+.speaker{
+  /* color: rgb(100, 100, 100); */
+  font-size: 90%;
+  font-weight: bolder;
+  font-family: 等线;
+  line-height: 30px;
+  margin-left: 8px;
+}
+
+.sentence-content{
+  font-size: 96%;
+  font-family: 等线;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.blue{
+  background-color: rgb(53, 153, 247);
+  color: white;
 }
 
 .bottom{
+  position: fixed;
+  bottom: 0;
   display: flex;
   margin-top: 30px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.function-icons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.bottom-icon{
+  height: 28px;
+  width: 28px;
+}
+
+.play-icon{
+  height: 48px;
+  width: 48px;
+}
+
+.scroll-line{
+  position: fixed;
+  right: 3%;
+  top: 5%;
+  height: 86%;
+  border-right: 2px solid rgba(128, 128, 128, 0.432);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-dot{
+  position: absolute;
+  margin-left: 2px;
+  height: 18px;
+  width: 18px;
+  border-radius: 10px;
+  background-color: rgb(163, 162, 162);
 }
