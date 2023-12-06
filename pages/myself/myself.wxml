@@ -13,19 +13,21 @@
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/phone.png"></image>
       <text style="position: relative; left: 2%;">紧急求助</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view>
     <view class='divLine'></view>
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/records.png"></image>
       <text style="position: relative; left: 2%;">聊天记录</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image> -->
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view> 
     <view class='divLine'></view>
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/star.png"></image>
       <text style="position: relative; left: 2%;">收藏</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image>
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image> -->
     </view>
 
     <text>\n</text>
@@ -33,19 +35,22 @@
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/feedback.png"></image>
       <text style="position: relative; left: 2%;">意见反馈</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image> -->
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view>
     <view class='divLine'></view>
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/service.png"></image>
       <text style="position: relative; left: 2%;">客服咨询</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image> -->
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view>
     <view class='divLine'></view>
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/about.png"></image>
       <text style="position: relative; left: 2%;">关于写声</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 66%;" src="../../images/arrow.png"></image> -->
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view>
 
     <text>\n</text>
@@ -53,7 +58,8 @@
     <view class='choice'>
       <image style="height: 15px;width: 15px;position: relative;top: 10%;" src="../../images/icons/setUp.png"></image>
       <text style="position: relative; left: 2%;">设置</text>
-      <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image>
+      <!-- <image style="height: 15px;width: 15px;position: relative;top: 12%;left: 75.5%;" src="../../images/arrow.png"></image> -->
+      <image class="arrorw" src="../../images/arrow.png" mode="aspectFit"></image>
     </view> 
   </view>
 </view>
