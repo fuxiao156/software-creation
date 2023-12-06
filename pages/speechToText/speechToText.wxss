@@ -23,8 +23,8 @@ page{
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 10px;
-  padding-top: 4px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 14px;
   border-radius: 6px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.185);
 }
@@ -39,16 +39,17 @@ page{
 }
 
 .sentence-content{
-  font-size: 96%;
+  font-size: 106%;
   font-family: 等线;
-  line-height: 20px;
+  font-weight: bold;
+  line-height: 24px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .blue{
-  background-color: rgb(53, 153, 247);
-  color: white;
+  background-color: rgb(22, 133, 236);
+  color: rgba(255, 255, 255, 0.945);
 }
 
 .bottom{
