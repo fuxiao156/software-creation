@@ -5,7 +5,8 @@
     "pages/test/test",
     "pages/passages/passages",
     "pages/community/community",
-    "pages/myself/myself"
+    "pages/myself/myself",
+    "pages/speechToText/speechToText"
   ],
   "subpackages": [
     {

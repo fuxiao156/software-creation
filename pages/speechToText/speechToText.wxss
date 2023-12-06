@@ -1,0 +1,19 @@
+/* pages/speechToText/speechToText.wxss */
+page{
+  background-color: whitesmoke;
+}
+
+.title{
+  display: flex;
+  padding-top:10px ;
+  padding-left:10px ;
+}
+
+.content{
+  display: flex;
+}
+
+.bottom{
+  display: flex;
+  margin-top: 30px;
+}

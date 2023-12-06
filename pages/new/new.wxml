@@ -16,7 +16,7 @@
   <image class="title_icon" src="../../images/headBan.png" mode="aspectFit"></image>
 </view>
 <view class="content">
-  <navigator class="test" url="../../packagea/pages/rankTest/rankTest">
+  <navigator class="test" url="../../pages/speechToText/speechToText">
     <view class="nothing"></view>
     <image mode="aspectFit" class="icon" src="../../images/icons/talk.png"></image>
     <view class="title">线下对话辅助</view>

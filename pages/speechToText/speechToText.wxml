@@ -1,0 +1,35 @@
+<!--pages/speechToText/speechToText.wxml-->
+<view class='contaiern'>
+  <view class='title'>
+    <view style="font-size: 12px;padding-right: 12px;font-family:cursive;">
+      <image style="height: 14px;width: 14px;margin-right: 4px;" src="../../images/icons/time.png"></image>
+      <text style="position: relative;bottom: 2px;">00:00</text>
+    </view>
+    <view style="font-size: 12px;position: relative;top: 1px;font-family:cursive;">
+      2023年12月6日 19：47
+    </view>
+  </view>
+  <view class='content'>
+    <view>
+      <view style="margin-right: 20px;margin-left: 15px; margin-top: 10px;box-shadow:2px 3px 5px rgba(0,0,0,0.1);border-radius: 10px;font-size: 12px;padding: 10px;background-color: white;">
+      <text style="font-size: 13px;font-weight: bolder;">发言者1:\n</text>
+      <text style="position: relative;top:5px">把手机靠近说话的人，按下右下角开始键后，即可把对方说话的内容实时转成文字。\n或点击下方上传图标，上传音频，按下右下角开始键后，即可把音频内容转为文字。</text>
+    </view>
+      <view style="margin-right: 20px;margin-left: 15px; margin-top: 15px;box-shadow:2px 3px 5px rgba(0,0,0,0.1);border-radius: 10px;font-size: 12px;padding: 10px;background-color: rgb(28, 134, 255);color: white;">
+        <text style="font-size: 13px;font-weight: bolder;">发言者2:\n</text>
+        <text style="position: relative;top:5px">我们会根据音色分辨不同的发言人并加以区分展示。\n长按文字块可手动修改发言者名称与此块背景颜色、字体颜色。\n点击下方的更多图标中的切换图标将切换为另一种区分发言者的方案。\n上下拖动右侧小球，可查看之前/之后的发言记录。</text>
+     </view>
+    </view>
+    <view style="width: 3px;height: 390px;background-color: rgb(221, 221, 221);z-index: -1;margin-right: 20px;margin-top: 15px;">
+        <view style="width: 20px;height: 20px;border-radius: 20px;background-color: rgb(185, 185, 185);position: relative;right: 8.5px;"></view>
+    </view>
+  </view>
+  <view class="bottom">
+    <image style="height: 28px;width: 28px;margin-left: 17px;" src="../../images/icons/help.png"></image>
+    <image style="height: 28px;width: 28px;margin-left: 17px;" src="../../images/icons/search.png"></image>
+    <image style="height: 28px;width: 28px;margin-left: 17px;" src="../../images/icons/upload.png"></image>
+    <image style="height: 28px;width: 28px;margin-left: 17px;" src="../../images/icons/edit.png"></image>
+    <image style="height: 27px;width: 27px;margin-left: 17px;" src="../../images/icons/more.png"></image>
+    <image style="height: 42px;width: 42px;margin-left: 35px;position: relative;bottom: 15px;" src="../../images/icons/start.png"></image>
+  </view>
+</view>
